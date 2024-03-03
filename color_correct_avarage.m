@@ -16,3 +16,6 @@ red = r_g * red;
 blue = b_g * blue;
 
 output_image = cat(3, red, green, blue);
+
+%%
+% by Pasquale Naclerio

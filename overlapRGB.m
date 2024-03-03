@@ -62,6 +62,7 @@ title('s5: green channel info color')
 subplot(2,3,6), imshow(just_blue)
 title('s6: blu channel info color')
 
+
 %% Color Correct with the average
 img_color_avarage = color_correct_avarage(Irgb);
 
@@ -82,3 +83,6 @@ figure('Name', 'Color Correct with parameters')
 
 imshow(img_color_parameters);
 imwrite(img_color_parameters,'images/img_parameters.jpg');
+
+%%
+% by Pasquale Naclerio
